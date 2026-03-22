@@ -246,7 +246,6 @@ A collection of skills for [GitHub Copilot CLI](https://docs.github.com/copilot/
 | [swift-mcp-server-generator](swift-mcp-server-generator/) | 'Generate a complete Model Context Protocol server project in Swift using the official MCP Swift SDK package.' |
 | [technology-stack-blueprint-generator](technology-stack-blueprint-generator/) | 'Comprehensive technology stack blueprint generator that analyzes codebases to create detailed architectural document... |
 | [terraform-azurerm-set-diff-analyzer](terraform-azurerm-set-diff-analyzer/) | Analyze Terraform plan JSON output for AzureRM Provider to distinguish between false-positive diffs (order-only chang... |
-| [test-groundhog](test-groundhog/) | testing groundhog backup |
 | [tldr-prompt](tldr-prompt/) | 'Create tldr summaries for GitHub Copilot files (prompts, agents, instructions, collections), MCP servers, or documen... |
 | [transloadit-media-processing](transloadit-media-processing/) | 'Process media files (video, audio, images, documents) using Transloadit. Use when asked to encode video to HLS/MP4, ... |
 | [typescript-mcp-server-generator](typescript-mcp-server-generator/) | 'Generate a complete MCP server project in TypeScript with tools, resources, and proper configuration' |
