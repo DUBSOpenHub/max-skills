@@ -21,6 +21,7 @@ A collection of skills for [GitHub Copilot CLI](https://docs.github.com/copilot/
 | [autoresearch](autoresearch/) | 'Autonomous iterative experimentation loop for any programming task. Guides the user through defining goals, measurab... |
 | [aws-cdk-python-setup](aws-cdk-python-setup/) | Setup and initialization guide for developing AWS CDK (Cloud Development Kit) applications in Python. This skill enab... |
 | [az-cost-optimize](az-cost-optimize/) | 'Analyze Azure resources used in the app (IaC files and/or resources in a target rg) and optimize costs - creating Gi... |
+| [azure-architecture-autopilot](azure-architecture-autopilot/) | Design Azure infrastructure using natural language, or analyze existing Azure resources to auto-generate architecture... |
 | [azure-deployment-preflight](azure-deployment-preflight/) | 'Performs comprehensive preflight validation of Bicep deployments to Azure, including template syntax validation, wha... |
 | [azure-devops-cli](azure-devops-cli/) | Manage Azure DevOps resources via CLI including projects, repos, pipelines, builds, pull requests, work items, artifa... |
 | [azure-pricing](azure-pricing/) | 'Fetches real-time Azure retail pricing using the Azure Retail Prices API (prices.azure.com) and estimates Copilot St... |
@@ -119,6 +120,7 @@ A collection of skills for [GitHub Copilot CLI](https://docs.github.com/copilot/
 | [gdoc-converter](gdoc-converter/) | Converts Google Docs, Slides, and Sheets to Microsoft Office formats (Word, PowerPoint, Excel). Paste a Google URL an... |
 | [gen-specs-as-issues](gen-specs-as-issues/) | 'This workflow guides you through a systematic approach to identify missing features, prioritize them, and create det... |
 | [generate-custom-instructions-from-codebase](generate-custom-instructions-from-codebase/) | 'Migration and code evolution instructions generator for GitHub Copilot. Analyzes differences between two project ver... |
+| [geofeed-tuner](geofeed-tuner/) | Use this skill whenever the user mentions IP geolocation feeds, RFC 8805, geofeeds, or wants help creating, tuning, v... |
 | [gh-cli](gh-cli/) | GitHub CLI (gh) comprehensive reference for repositories, issues, pull requests, Actions, projects, releases, gists, ... |
 | [git-commit](git-commit/) | 'Execute git commit with conventional commit message analysis, intelligent staging, and message generation. Use when ... |
 | [git-flow-branch-creator](git-flow-branch-creator/) | 'Intelligent Git Flow branch creator that analyzes git status/diff and creates appropriate branches following the nvi... |
@@ -211,6 +213,7 @@ A collection of skills for [GitHub Copilot CLI](https://docs.github.com/copilot/
 | [publish-to-pages](publish-to-pages/) | 'Publish presentations and web content to GitHub Pages. Converts PPTX, PDF, HTML, or Google Slides to a live GitHub P... |
 | [pytest-coverage](pytest-coverage/) | 'Run pytest tests with coverage, discover lines missing coverage, and increase coverage to 100%.' |
 | [python-mcp-server-generator](python-mcp-server-generator/) | 'Generate a complete MCP server project in Python with tools, resources, and proper configuration' |
+| [quality-playbook](quality-playbook/) | 'Explore any codebase from scratch and generate six quality artifacts: a quality constitution (QUALITY.md), spec-trac... |
 | [quasi-coder](quasi-coder/) | 'Expert 10x engineer skill for interpreting and implementing code from shorthand, quasi-code, and natural language de... |
 | [readme-blueprint-generator](readme-blueprint-generator/) | 'Intelligent README.md generation prompt that analyzes project documentation structure and creates comprehensive repo... |
 | [refactor](refactor/) | 'Surgical code refactoring to improve maintainability without changing behavior. Covers extracting functions, renamin... |
@@ -221,6 +224,8 @@ A collection of skills for [GitHub Copilot CLI](https://docs.github.com/copilot/
 | [repo-story-time](repo-story-time/) | 'Generate a comprehensive repository summary and narrative story from commit history' |
 | [review-and-refactor](review-and-refactor/) | 'Review and refactor code in your project according to defined instructions' |
 | [reviewing-oracle-to-postgres-migration](reviewing-oracle-to-postgres-migration/) | 'Identifies Oracle-to-PostgreSQL migration risks by cross-referencing code against known behavioral differences (empt... |
+| [roundup](roundup/) | 'Generate personalized status briefings on demand. Pulls from your configured data sources (GitHub, email, Teams, Sla... |
+| [roundup-setup](roundup-setup/) | 'Interactive onboarding that learns your communication style, audiences, and data sources to configure personalized s... |
 | [ruby-mcp-server-generator](ruby-mcp-server-generator/) | 'Generate a complete Model Context Protocol server project in Ruby using the official MCP Ruby SDK gem.' |
 | [rust-mcp-server-generator](rust-mcp-server-generator/) | 'Generate a complete Rust Model Context Protocol server project with tools, prompts, resources, and tests using the o... |
 | [sandbox-npm-install](sandbox-npm-install/) | 'Install npm packages in a Docker sandbox environment. Use this skill whenever you need to install, reinstall, or upd... |
