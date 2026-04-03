@@ -15,6 +15,15 @@ A collection of skills for [GitHub Copilot CLI](https://docs.github.com/copilot/
 | [apple-appstore-reviewer](apple-appstore-reviewer/) | 'Serves as a reviewer of the codebase with instructions on looking for Apple App Store optimizations or rejection rea... |
 | [arch-linux-triage](arch-linux-triage/) | 'Triage and resolve Arch Linux issues with pacman, systemd, and rolling-release best practices.' |
 | [architecture-blueprint-generator](architecture-blueprint-generator/) | 'Comprehensive project architecture blueprint generator that analyzes codebases to create detailed architectural docu... |
+| [arize-ai-provider-integration](arize-ai-provider-integration/) | INVOKE THIS SKILL when creating, reading, updating, or deleting Arize AI integrations. Covers listing integrations, c... |
+| [arize-annotation](arize-annotation/) | INVOKE THIS SKILL when creating, managing, or using annotation configs on Arize (categorical, continuous, freeform), ... |
+| [arize-dataset](arize-dataset/) | INVOKE THIS SKILL when creating, managing, or querying Arize datasets and examples. Covers dataset CRUD, appending ex... |
+| [arize-evaluator](arize-evaluator/) | INVOKE THIS SKILL for LLM-as-judge evaluation workflows on Arize: creating/updating evaluators, running evaluations o... |
+| [arize-experiment](arize-experiment/) | INVOKE THIS SKILL when creating, running, or analyzing Arize experiments. Covers experiment CRUD, exporting runs, com... |
+| [arize-instrumentation](arize-instrumentation/) | INVOKE THIS SKILL when adding Arize AX tracing to an application. Follow the Agent-Assisted Tracing two-phase flow: a... |
+| [arize-link](arize-link/) | Generate deep links to the Arize UI. Use when the user wants a clickable URL to open a specific trace, span, session,... |
+| [arize-prompt-optimization](arize-prompt-optimization/) | INVOKE THIS SKILL when optimizing, improving, or debugging LLM prompts using production trace data, evaluations, and ... |
+| [arize-trace](arize-trace/) | INVOKE THIS SKILL when downloading or exporting Arize traces and spans. Covers exporting traces by ID, sessions by ID... |
 | [aspire](aspire/) | 'Aspire skill covering the Aspire CLI, AppHost orchestration, service discovery, integrations, MCP server, VS Code ex... |
 | [aspnet-minimal-api-openapi](aspnet-minimal-api-openapi/) | 'Create ASP.NET Minimal API endpoints with proper OpenAPI documentation' |
 | [automate-this](automate-this/) | 'Analyze a screen recording of a manual process and produce targeted, working automation scripts. Extracts frames and... |
@@ -82,6 +91,7 @@ A collection of skills for [GitHub Copilot CLI](https://docs.github.com/copilot/
 | [csharp-nunit](csharp-nunit/) | 'Get best practices for NUnit unit testing, including data-driven tests' |
 | [csharp-tunit](csharp-tunit/) | 'Get best practices for TUnit unit testing, including data-driven tests' |
 | [csharp-xunit](csharp-xunit/) | 'Get best practices for XUnit unit testing, including data-driven tests' |
+| [daily-prep](daily-prep/) | 'Prepare for tomorrow''s meetings and tasks. Pulls calendar from Outlook via WorkIQ, cross-references open tasks and ... |
 | [dark-factory](dark-factory/) | 🏭 Dark Factory — agentic build system with sealed-envelope testing. Orchestrates 6 specialist agents through a checkp... |
 | [datanalysis-credit-risk](datanalysis-credit-risk/) | Credit risk data cleaning and variable screening pipeline for pre-loan modeling. Use when working with raw credit dat... |
 | [dataverse-python-advanced-patterns](dataverse-python-advanced-patterns/) | 'Generate production code for Dataverse SDK using advanced patterns, error handling, and optimization techniques.' |
@@ -100,8 +110,10 @@ A collection of skills for [GitHub Copilot CLI](https://docs.github.com/copilot/
 | [dotnet-timezone](dotnet-timezone/) | '.NET timezone handling guidance for C# applications. Use when working with TimeZoneInfo, DateTimeOffset, NodaTime, U... |
 | [dotnet-upgrade](dotnet-upgrade/) | 'Ready-to-use prompts for comprehensive .NET framework upgrade analysis and execution' |
 | [doublecheck](doublecheck/) | 'Three-layer verification pipeline for AI output. Extracts verifiable claims, finds supporting or contradicting sourc... |
+| [draw-io-diagram-generator](draw-io-diagram-generator/) | Use when creating, editing, or generating draw.io diagram files (.drawio, .drawio.svg, .drawio.png). Covers mxGraph X... |
 | [editorconfig](editorconfig/) | 'Generates a comprehensive and best-practice-oriented .editorconfig file based on project analysis and user preferenc... |
 | [ef-core](ef-core/) | 'Get best practices for Entity Framework Core' |
+| [email-drafter](email-drafter/) | 'Draft and review professional emails that match your personal writing style. Analyzes your sent emails for tone, gre... |
 | [entra-agent-user](entra-agent-user/) | 'Create Agent Users in Microsoft Entra ID from Agent Identities, enabling AI agents to act as digital workers with us... |
 | [eval-driven-dev](eval-driven-dev/) | Instrument Python LLM apps, build golden datasets, write eval-based tests, run them, and root-cause failures — coveri... |
 | [excalidraw-diagram-generator](excalidraw-diagram-generator/) | 'Generate Excalidraw diagrams from natural language descriptions. Use when asked to "create a diagram", "make a flowc... |
@@ -118,6 +130,7 @@ A collection of skills for [GitHub Copilot CLI](https://docs.github.com/copilot/
 | [folder-structure-blueprint-generator](folder-structure-blueprint-generator/) | 'Comprehensive technology-agnostic prompt for analyzing and documenting project folder structures. Auto-detects proje... |
 | [game-engine](game-engine/) | 'Expert skill for building web-based game engines and games using HTML5, Canvas, WebGL, and JavaScript. Use when aske... |
 | [gdoc-converter](gdoc-converter/) | Converts Google Docs, Slides, and Sheets to Microsoft Office formats (Word, PowerPoint, Excel). Paste a Google URL an... |
+| [gdpr-compliant](gdpr-compliant/) | 'Apply GDPR-compliant engineering practices across your codebase. Use this skill whenever you are designing APIs, wri... |
 | [gen-specs-as-issues](gen-specs-as-issues/) | 'This workflow guides you through a systematic approach to identify missing features, prioritize them, and create det... |
 | [generate-custom-instructions-from-codebase](generate-custom-instructions-from-codebase/) | 'Migration and code evolution instructions generator for GitHub Copilot. Analyzes differences between two project ver... |
 | [geofeed-tuner](geofeed-tuner/) | Use this skill whenever the user mentions IP geolocation feeds, RFC 8805, geofeeds, or wants help creating, tuning, v... |
@@ -143,6 +156,7 @@ A collection of skills for [GitHub Copilot CLI](https://docs.github.com/copilot/
 | [headcount-zero](headcount-zero/) | — |
 | [image-manipulation-image-magick](image-manipulation-image-magick/) | Process and manipulate images using ImageMagick. Supports resizing, format conversion, batch processing, and retrievi... |
 | [import-infrastructure-as-code](import-infrastructure-as-code/) | 'Import existing Azure resources into Terraform using Azure CLI discovery and Azure Verified Modules (AVM). Use when ... |
+| [integrate-context-matic](integrate-context-matic/) | 'Discovers and integrates third-party APIs using the context-matic MCP server. Uses `fetch_api` to find available API... |
 | [issue-fields-migration](issue-fields-migration/) | 'Bulk-migrate metadata to GitHub issue fields from two sources: repo labels (e.g. priority labels to a Priority field... |
 | [java-add-graalvm-native-image-support](java-add-graalvm-native-image-support/) | 'GraalVM Native Image expert that adds native image support to Java applications, builds the project, analyzes build ... |
 | [java-docs](java-docs/) | 'Ensure that Java types are documented with Javadoc comments and follow best practices for documentation.' |
@@ -184,6 +198,7 @@ A collection of skills for [GitHub Copilot CLI](https://docs.github.com/copilot/
 | [noob-mode](noob-mode/) | 'Plain-English translation layer for non-technical Copilot CLI users. Translates every approval prompt, error message... |
 | [nuget-manager](nuget-manager/) | 'Manage NuGet packages in .NET projects/solutions. Use this skill when adding, removing, or updating NuGet package ve... |
 | [octofund](octofund/) | 🐙 OctoFund — data-driven funding allocator for underfunded open source projects. Takes a budget, scores critical proj... |
+| [onboard-context-matic](onboard-context-matic/) | 'Interactive onboarding tour for the context-matic MCP server. Walks the user through what the server does, shows all... |
 | [oo-component-documentation](oo-component-documentation/) | 'Create or update standardized object-oriented component documentation using a shared template plus mode-specific gui... |
 | [openapi-to-application-code](openapi-to-application-code/) | 'Generate a complete, production-ready application from an OpenAPI specification' |
 | [outlook-mail](outlook-mail/) | Read and send Outlook email via Microsoft Graph. All outbound email requires explicit user approval before sending. |
@@ -227,11 +242,13 @@ A collection of skills for [GitHub Copilot CLI](https://docs.github.com/copilot/
 | [roundup](roundup/) | 'Generate personalized status briefings on demand. Pulls from your configured data sources (GitHub, email, Teams, Sla... |
 | [roundup-setup](roundup-setup/) | 'Interactive onboarding that learns your communication style, audiences, and data sources to configure personalized s... |
 | [ruby-mcp-server-generator](ruby-mcp-server-generator/) | 'Generate a complete Model Context Protocol server project in Ruby using the official MCP Ruby SDK gem.' |
+| [ruff-recursive-fix](ruff-recursive-fix/) | Run Ruff checks with optional scope and rule overrides, apply safe and unsafe autofixes iteratively, review each chan... |
 | [rust-mcp-server-generator](rust-mcp-server-generator/) | 'Generate a complete Rust Model Context Protocol server project with tools, prompts, resources, and tests using the o... |
 | [sandbox-npm-install](sandbox-npm-install/) | 'Install npm packages in a Docker sandbox environment. Use this skill whenever you need to install, reinstall, or upd... |
 | [scaffolding-oracle-to-postgres-migration-test-project](scaffolding-oracle-to-postgres-migration-test-project/) | 'Scaffolds an xUnit integration test project for validating Oracle-to-PostgreSQL database migration behavior in .NET ... |
 | [scoutqa-test](scoutqa-test/) | 'This skill should be used when the user asks to "test this website", "run exploratory testing", "check for accessibi... |
 | [secret-scanning](secret-scanning/) | Guide for configuring and managing GitHub secret scanning, push protection, custom patterns, and secret alert remedia... |
+| [security-review](security-review/) | 'AI-powered codebase security scanner that reasons about code like a security researcher — tracing data flows, unders... |
 | [semantic-kernel](semantic-kernel/) | 'Create, update, refactor, explain, or review Semantic Kernel solutions using shared guidance plus language-specific ... |
 | [shuffle-json-data](shuffle-json-data/) | 'Shuffle repetitive JSON objects safely by validating schema consistency before randomising entries.' |
 | [slack-context](slack-context/) | Use when the user asks to "fetch context from Slack", "read this Slack thread", "get requirements from Slack", "extra... |
@@ -252,6 +269,7 @@ A collection of skills for [GitHub Copilot CLI](https://docs.github.com/copilot/
 | [swift-mcp-server-generator](swift-mcp-server-generator/) | 'Generate a complete Model Context Protocol server project in Swift using the official MCP Swift SDK package.' |
 | [technology-stack-blueprint-generator](technology-stack-blueprint-generator/) | 'Comprehensive technology stack blueprint generator that analyzes codebases to create detailed architectural document... |
 | [terraform-azurerm-set-diff-analyzer](terraform-azurerm-set-diff-analyzer/) | Analyze Terraform plan JSON output for AzureRM Provider to distinguish between false-positive diffs (order-only chang... |
+| [threat-model-analyst](threat-model-analyst/) | 'Full STRIDE-A threat model analysis and incremental update skill for repositories and systems. Supports two modes: (... |
 | [tldr-prompt](tldr-prompt/) | 'Create tldr summaries for GitHub Copilot files (prompts, agents, instructions, collections), MCP servers, or documen... |
 | [transloadit-media-processing](transloadit-media-processing/) | 'Process media files (video, audio, images, documents) using Transloadit. Use when asked to encode video to HLS/MP4, ... |
 | [typescript-mcp-server-generator](typescript-mcp-server-generator/) | 'Generate a complete MCP server project in TypeScript with tools, resources, and proper configuration' |
