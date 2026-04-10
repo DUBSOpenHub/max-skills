@@ -132,6 +132,7 @@ A collection of skills for [GitHub Copilot CLI](https://docs.github.com/copilot/
 | [flowstudio-power-automate-monitoring](flowstudio-power-automate-monitoring/) | >- |
 | [fluentui-blazor](fluentui-blazor/) | Guide for using the Microsoft Fluent UI Blazor component library (Microsoft.FluentUI.AspNetCore.Components NuGet pack... |
 | [folder-structure-blueprint-generator](folder-structure-blueprint-generator/) | 'Comprehensive technology-agnostic prompt for analyzing and documenting project folder structures. Auto-detects proje... |
+| [freecad-scripts](freecad-scripts/) | 'Expert skill for writing FreeCAD Python scripts, macros, and automation. Use when asked to create FreeCAD models, pa... |
 | [from-the-other-side-vega](from-the-other-side-vega/) | 'Patterns and lived experience from Vega, an AI partner in a deep long-term partnership. For Ember to draw on when wo... |
 | [game-engine](game-engine/) | 'Expert skill for building web-based game engines and games using HTML5, Canvas, WebGL, and JavaScript. Use when aske... |
 | [gdoc-converter](gdoc-converter/) | Converts Google Docs, Slides, and Sheets to Microsoft Office formats (Word, PowerPoint, Excel). Paste a Google URL an... |
@@ -146,6 +147,7 @@ A collection of skills for [GitHub Copilot CLI](https://docs.github.com/copilot/
 | [github-issues](github-issues/) | 'Create, update, and manage GitHub issues using MCP tools. Use this skill when users want to create bug reports, feat... |
 | [go-mcp-server-generator](go-mcp-server-generator/) | 'Generate a complete Go MCP server project with proper structure, dependencies, and implementation using the official... |
 | [grid-medic](grid-medic/) | Weekly skill health audit — checks all installed skills for staleness, conflicts, missing dependencies, and broken re... |
+| [gsap-framer-scroll-animation](gsap-framer-scroll-animation/) | >- |
 | [gtm-0-to-1-launch](gtm-0-to-1-launch/) | Launch new products from idea to first customers. Use when launching products, finding early adopters, building launc... |
 | [gtm-ai-gtm](gtm-ai-gtm/) | Go-to-market strategy for AI products. Use when positioning AI products, handling "who is responsible when it breaks"... |
 | [gtm-board-and-investor-communication](gtm-board-and-investor-communication/) | Board meeting preparation, investor updates, and executive communication. Use when preparing board decks, writing inv... |
@@ -174,6 +176,7 @@ A collection of skills for [GitHub Copilot CLI](https://docs.github.com/copilot/
 | [kotlin-mcp-server-generator](kotlin-mcp-server-generator/) | 'Generate a complete Kotlin MCP server project with proper structure, dependencies, and implementation using the offi... |
 | [kotlin-springboot](kotlin-springboot/) | 'Get best practices for developing applications with Spring Boot and Kotlin.' |
 | [legacy-circuit-mockups](legacy-circuit-mockups/) | 'Generate breadboard circuit mockups and visual diagrams using HTML5 Canvas drawing techniques. Use when asked to cre... |
+| [lsp-setup](lsp-setup/) | 'Enable code intelligence (go-to-definition, find-references, hover, type info) for any programming language by insta... |
 | [m365-easy-button](m365-easy-button/) | Translate Google Workspace habits into Microsoft 365 steps, app mappings, troubleshooting, and power-user guidance. |
 | [make-repo-contribution](make-repo-contribution/) | 'All changes to code must follow the guidance documented in the repository. Before any issue is filed, branch is made... |
 | [make-skill-template](make-skill-template/) | 'Create new Agent Skills for GitHub Copilot from prompts or by duplicating this template. Use when asked to "create a... |
